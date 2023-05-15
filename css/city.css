@@ -103,3 +103,21 @@ ul li
     height: 100%;
     width: 100%;
 }
+
+@media screen and (min-width : 600px)
+{
+    h1{
+
+        font-size: 32px;  
+
+    }
+}
+
+@media screen and (min-width : 900px)
+{
+    h1{
+
+        font-size: 64px;  
+
+    }
+}
