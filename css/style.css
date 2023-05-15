@@ -1,0 +1,38 @@
+#parent {
+    max-width: 900px;
+    border : 2px solid blue;
+    min-height : 900px;
+    display: flex;
+    flex-direction: row-reverse; 
+    flex-wrap: wrap;
+}
+
+.enfant {
+    width: 200px;
+    height: 200px;
+    background-color: #777777;
+    margin : 10px;
+}
+
+#riri
+{
+    background-color: orange;
+}
+
+#fifi
+{
+    background-color : lightblue;
+    flex:1;
+}
+
+#loulou
+{
+    background-color: lightgreen;
+}
+
+.petit{
+    width: 25px;
+    height: 25px;
+    background-color: violet;
+    margin: 2px;
+}

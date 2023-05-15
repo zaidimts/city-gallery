@@ -1,0 +1,105 @@
+body
+{
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+}
+
+header
+{
+    background-color: #0c3f75;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+header img
+{
+    width: 250px;
+}
+
+header h1
+{
+   font-size: 32px;
+   color: white;
+}
+
+#hero
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav
+{
+    background-color: #9cb4c9;
+    padding: 15px;
+    /*width: 200px;*/
+    /*height: 100%;*/
+    flex : 2;
+}
+
+/*nav ul
+{
+    margin: 0;
+}*/
+
+nav ul li
+{
+  color : blue;
+}
+#ville
+{
+    list-style-type: none;
+}
+
+#content
+{
+    background-color: #9cb4c9bf;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    flex:7;
+    min-height: 600px;
+}
+
+footer
+{
+    background-color: #0c3f75;
+    color : white;
+    padding: 15px;
+}
+
+footer p
+{
+   text-align: center;
+}
+
+#content p
+{
+    max-width: 60%;
+}
+
+ul li 
+{
+    padding-bottom: 20px;
+}
+
+#photo
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Card
+{
+    max-height: 300px;
+    max-width: 290px;
+}
+
+.Card img
+{
+    height: 100%;
+    width: 100%;
+}
